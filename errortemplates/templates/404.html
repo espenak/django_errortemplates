@@ -1,8 +1,14 @@
+{% load staticfiles %}
 <html>
     <head>
         <title>Page not found</title>
+        <link rel="stylesheet" type="text/css"
+            href="{% static "errortemplates/style.css" %}"/>
     </head>
-<body>
-    <h1>404 Page not found</h1>
-    <p>{{ request_path }} was not found on this server.</p>
-</body>
+    <body>
+        <div class="hero-unit">
+            <h1>404 Page not found</h1>
+            <p>{{ request_path }} was not found on this server.</p>
+        </div>
+    </body>
+</html>
