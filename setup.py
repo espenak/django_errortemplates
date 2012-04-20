@@ -12,7 +12,7 @@ setup(name = 'django_errortemplates',
       packages=find_packages(exclude=['ez_setup']),
       install_requires = ['setuptools', 'Django'],
       include_package_data=True,
-      long_description=open(join(this_dir, 'README.rst').read(),
+      long_description=open(join(this_dir, 'README.rst')).read(),
       zip_safe=False,
       classifiers=[
                    'Development Status :: 5 - Production/Stable',
