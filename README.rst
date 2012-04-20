@@ -3,7 +3,7 @@ Django error page templates
 ###########################
 
 Simple and generic ``404.html`` and ``500.html`` templates for django. The
-error messages are styles with the bootstrap hero-unit style.
+error messages are styled with the bootstrap hero-unit style.
 
 
 Issues/contribute
