@@ -36,7 +36,9 @@ Start your server with::
 
     python manage.py runserver --insecure
 
-and navigate to a non-existing url or an url that raises an exception. Note that we use ``--insecure``
+set ``DEBUG`` to ``False``, and navigate to a non-existing url or an url that
+raises an exception. Note that we use ``--insecure`` to serve static files
+event when ``DEBUG`` is ``False``.
 
 
 .. _`django_errortemplates`: https://github.com/espenak/django_errortemplates
